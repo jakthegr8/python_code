@@ -1,5 +1,5 @@
 def spy_game(nums):
-  spy_code = [0,0,7]
+  spy_code = [0, 0, 7]
   for num in nums:
     if num == spy_code[0]:
     	spy_code.pop(0)
