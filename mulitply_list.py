@@ -4,4 +4,4 @@ def multiply_list(nums):
   return total
 
 print(multiply_list([1, 2, 4, 1, 7]))
-print(multiply_list([-3, 1, 2, 1, 4])) # False
+print(multiply_list([-3, 1, 2, 1, 4]))
