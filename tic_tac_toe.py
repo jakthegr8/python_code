@@ -1,11 +1,11 @@
-# TIC TAC TOA GAME
+# TIC TAC TOE GAME
 def print_game_ui(p_inp):
   for row in p_inp:
     print(f'| {row[0]} | {row[1]} | {row[2]} |')
     print('---  ---  ---')
   return
 
-def play_tic_toc_toa():
+def play_tic_tac_toe():
   # You can use simple list also instead of matrix list
   output  = [[' ', ' ', ' '],[' ', ' ', ' '],[' ', ' ', ' ']]
   player1 = input('Play the game with X or O ? ')
@@ -79,7 +79,7 @@ def update_loc(loc, p_inp, marker):
   return [p_inp, not_empty]
 
 
-play_tic_toc_toa()
+play_tic_tac_toe()
 
 # OUTPUT
 
